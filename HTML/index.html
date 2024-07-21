@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Rojal Gurung, Riwaj Thapa, Prabin Parajuli, Lokesh Pun Magar">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Camero</title>
+
+	<!-------link to style css------->
+	<link rel="stylesheet" href="../CSS/style.css">
+
+	<!-- social-media icon css -->
+	<link rel="stylesheet " type="text/css" href="../assets/font-6/css/all.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+
+
+	<!--JavaScript link-->
+	<script src="../JS/script.js"></script>
+
+	<style>
+		/* Internal CSS */
+		#scroll-to-top {
+		display: none; /* Hide the button by default */
+		position: fixed;
+		bottom: 20px;
+		right: 30px;
+		z-index: 99;
+		font-size: 18px;
+		border: none;
+		outline: none;
+		background-color: #555;
+		color: white;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 50%;
+	}
+	#scroll-to-top:hover {
+		background-color: #820a5a;
+	}
+	</style>
+</head>
+<body>
+	<!----header section design----->
+	<header>
+		<nav>
+			<img src="../img/Logo.png" alt="Logo" class="logo">
+			
+			<ul class="navbar">
+				<li><a href="../HTML/index.html">Home</a></li>
+                <li><a href="../HTML/product.html">Products</a></li>
+                <li><a href="../HTML/blog.html">Blog</a></li>
+                <li><a href="../HTML/research.html">Research</a></li>
+                <li><a href="../HTML/about.html">About us</a></li>
+            </ul>
+		</nav>
+		<h1>Focus On What's Important</h1>
+		<p>Capture the good times</p>
+		<a href="#products" class="btn">Get Started</a>
+	</header>
+
+
+	<!----============Products===========---->
+	<section class="middle" id="products">
+		<h1 class="trending-product">
+			Trending <span>Product</span>
+		</h1>
+
+		<div class="main-product">
+			<div class="product">
+				<img src="../img/Sony Alpha.png" alt="Product Image" style="width:450px; height: fit-content; ">
+				<h2 class="product-title">Sony</h2>
+				<p class="product-description">Alpha a 7R Mirrorless Digital Camera(Body Only)</p>
+				<p class="product-price">$199.99</p>
+				<button class="add-to-cart">Add to Cart</button>
+			</div>
+			
+			<div class="product">
+				<img src="../img/Canon EOS.png" alt="Product Image">
+				<h2 class="product-title">Canon</h2>
+				<p class="product-description">EOS R50 Digital Camera with 18-45mm </p>
+				<p class="product-price">$399.99</p>
+				<button class="add-to-cart">Add to Cart</button>
+			</div>
+			
+			<div class="product">
+				<img src="../img/Nikon D850.png" alt="Product Image" style="width:700px; height:425px">
+				<h2 class="product-title">Nikon D850</h2>
+				<p class="product-description">FX-Format Digital SLR Camera Body</p>
+				<p class="product-price">$409.99</p>
+				<button class="add-to-cart">Add to Cart</button>
+			</div>
+			
+			<div class="product">
+				<img src="../img/Nikon Z5.png" alt="Product Image" style="height:auto">
+				<h2 class="product-title">Nikon Z5</h2>
+				<p class="product-description">Product description goes here.</p>
+				<p class="product-price">$200.99</p>
+				<button class="add-to-cart">Add to Cart</button>
+			</div>
+		</div>
+		<br>
+		<br>
+		<a  href="../HTML/product.html"class="product-btn">View More</a>
+	</section>
+	
+	<!--Footer section-->
+	<section class="contact">
+		<div class="main-contact">
+		 
+			<div class="contact-content">
+				<h5>Company Info</h5>
+				<li><a href="/HTML/about.html">About Us</a></li>
+				<li><a href="/HTML/about.html">Contact Us</a></li>
+				<li><a href="/HTML/index.html">Home </a></li>
+				<li><a href="/HTML/product.html">Product</a></li>
+				<li><a href="/HTML/research.html">Research</a></li>
+			  </div>
+		  <div class="footer-social-link">
+			<h3>Follow us</h3>
+			 <p>Follow us on social media:</p>
+		  <ul class="social-icons">
+  
+			<li>
+			  <a href="https://www.linkedin.com/in/riwaj-thapa-7087652b0/" target="_blank" class="linkedin">
+				  <i class="fab fa-linkedin"></i>
+			  </a>
+			</li>
+			
+			<li>
+			  <a href="https://github.com/Riwaj-Thapa" target="_blank" class="github">
+				  <i class="fab fa-github"></i>
+			  </a>
+			</li>
+			<li>
+			  <a href="https://www.instagram.com/riwaj_thapa_/" target="_blank" class="instagram">
+				  <i class="fab fa-instagram"></i>
+			  </a>
+			</li>
+			<li>
+			  <a href="https://discord.gg/3eKFjgBA" target="_blank" class="discord">
+				  <i class="fab fa-discord"></i>
+			  </a>
+			</li>
+			  <li>
+				  <a href="https://twitter.com/YourTwitterHandle" target="_blank" class="twitter">
+					  <i class="fab fa-twitter"></i>
+				  </a>
+			  </li>
+		  </ul>
+		  </div>
+		</div>
+	  <div class="end-text">
+		<p>&copy;<script>document.write(new Date().getFullYear())</script> All Rights Reserved by Camera store</p>
+	  </div>
+	</section>
+	  <button onclick="scrollToTop()" id="scroll-to-top" title="Go to top">↑</button>
+	<button onclick="scrollToTop()" id="scroll-to-top" title="Go to top">↑</button>
+	<script>
+	//JavaScript function to handle scrolling
+	function scrollToTop() {
+		document.body.scrollTop = 0; // For Safari
+		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	}
+	// Show/hide the button based on scroll position
+	window.onscroll = function() {scrollFunction()};
+	function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("scroll-to-top").style.display = "block";
+		} else {
+			document.getElementById("scroll-to-top").style.display = "none";
+		}
+	}
+	</script>
+</body>
+</html>
